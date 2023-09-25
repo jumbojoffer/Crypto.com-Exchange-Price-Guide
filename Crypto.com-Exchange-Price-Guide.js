@@ -13,7 +13,6 @@
 let CP = 0; // Current Price (Ticker).
 let HP = 0; // Hover Price. Price that the mouse is currently hovering over, which also enables the overlay.
 let Percent = 0; // Percentage value calculated from HP devided by CP, using CP as baseline.
-let Once = false;
 
 
 
