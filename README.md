@@ -7,7 +7,7 @@ What it calculates:
 What it does not do:
 - Trade. It only calculates and displays values to assist you.
 - Save anything, neither locally nor on any server. It only stores variables that it needs to work.
-- Read you accounts details. It only reads values within the trading window, specifically the ticker and first offers above and below.
+- Read your account details. It only reads values within the trading window, specifically the ticker and first trade offers above and below.
 
 Additional things it does not do:
 - No coffee brewing or delivery service.
