@@ -1,5 +1,4 @@
 # Crypto.com-Exchange-Price-Guide
-A simple userscript for greasemonkey/tampermonkey that tracks percent difference of some prices on the trade page of crypto.com exchange.
 
 What it calculates:
 - Mouseover/hover price divided by current price. Gives a small percentage (eg. -0.0013%), displayed dynamically in the hover overlay.
