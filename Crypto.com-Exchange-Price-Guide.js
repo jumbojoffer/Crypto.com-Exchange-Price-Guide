@@ -10,9 +10,9 @@
 // @require      https://code.jquery.com/jquery-3.7.1.min.js
 // ==/UserScript==
 
-let CP = 0; // Current Price (Ticker).
-let HP = 0; // Hover Price. Price that the mouse is currently hovering over, which also enables the overlay.
-let Percent = 0; // Percentage value calculated from HP devided by CP, using CP as baseline.
+let CP; // Current Price (Ticker).
+let HP; // Hover Price. Price that the mouse is currently hovering over, which also enables the overlay.
+let Percent; // Percentage value calculated from HP devided by CP, using CP as baseline.
 
 
 
@@ -29,12 +29,12 @@ $(function init() {
         // Elements with classes .price.color-buy-price will be checked. If they exist, execute run().
         isElementLoaded('.price.color-buy-price').then((selector) => {
             console.log("You are on the trading page!");
-            setTimeout(run, 1000);
+            setTimeout(run, 500);
         });
     } else {
         console.log("I don't know where you are...");
         $("div.sub-menu:first").onclick = function() {
-            setTimeout(init, 1000);
+            setTimeout(init, 500);
         };
     }
 });
